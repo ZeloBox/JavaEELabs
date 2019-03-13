@@ -1,10 +1,8 @@
 package trader;
 
 import javax.ejb.Local;
-import javax.ejb.Singleton;
 
 @Local 
-@Singleton
 public interface BrokerModel {
 
 // Customer segment state change methods

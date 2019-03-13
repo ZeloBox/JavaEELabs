@@ -6,6 +6,7 @@ import javax.ejb.Remote;
 import javax.ejb.Singleton;
 
 
+@Singleton
 public class BrokerModelImpl implements BrokerModel {
 
     private List<Customer> customers = new ArrayList<Customer>();
